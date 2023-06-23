@@ -111,7 +111,7 @@ def process_frame(img):
 # Main function
 def main():
     # Open the webcam
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
 
     while True:
         # Read a frame from the webcam
